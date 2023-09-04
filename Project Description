@@ -1,30 +1,44 @@
-The rules for a number guessing game are relatively simple. Here are the standard rules for a typical number guessing game:
 
-Objective: The objective of the game is for the player to guess a secret number selected by the game host or computer within a specified range.
+                                                                                           Game Description :
 
-Setup:
+The Number Guessing Game is an interactive, text-based challenge where players attempt to discover a hidden numerical value randomly selected by the computer. 
+Players must rely on their deduction skills and intuition to narrow down the possibilities and identify the secret number correctly. 
+The game offers feedback after each guess, guiding players to adjust their assumptions intelligently.
 
-The game host or computer selects a random number within a predefined range (e.g., between 1 and 100).
-Player's Turn:
+Game Flow :
 
-The player takes turns guessing the secret number.
-After each guess, the host or computer provides feedback to the player, typically indicating whether the secret number is higher, lower, or equal to the guessed number.
-Feedback:
+1. Initialization :
+   - The game begins by setting up a random number generator, creating a mechanism to accept player input, and selecting a random number.
+     This randomly chosen number serves as the "secret number" that the player must strive to guess.
 
-If the player's guess is less than the secret number, they receive feedback like "Higher."
-If the player's guess is greater than the secret number, they receive feedback like "Lower."
-If the player's guess matches the secret number, they receive feedback like "Correct."
-Guess Limit:
+2. Game Loop :
+   - The game operates within a persistent loop that continues until the player successfully identifies the secret number. 
+     The loop is structured to keep the game running until the player emerges victorious.
 
-The player has a limited number of attempts to guess the correct number. There's usually a maximum number of allowed guesses, 
-and if the player exceeds this limit without guessing correctly, they lose the game.
-Win or Lose:
+3. Player's Guess :
+   - Inside this loop, the player is actively engaged, prompted to input their best guess for the secret number. 
+     The player's guess can be any integer within a specified range (0-1000).
 
-If the player guesses the correct number within the allowed number of attempts, they win the game.
-If the player exceeds the maximum number of allowed guesses without finding the correct number, they lose the game.
-Restart Option:
+4. Checking the Guess :
+   - The game systematically evaluates the player's guess by comparing it to the secret number, determining whether it matches.
 
-After the game ends (either by winning or losing), players often have the option to restart and play another round.
-These are the basic rules for a number guessing game. However, the game can be modified and customized in various ways to make it more challenging or interesting.
-For example, you can add difficulty levels, scoring systems, time limits, or other features to enhance the gameplay. 
-The primary goal is to provide an enjoyable and engaging experience for the player while testing their guessing and deduction skills.
+5. Winning Condition :
+   - When the player correctly deduces the secret number, the game declares victory with an enthusiastic "Correct!" message. It takes the opportunity to congratulate the player on their success.
+   - Additionally, the game provides valuable information regarding the player's performance, including the number of attempts it took to solve the puzzle.
+   - To add an element of competition and time tracking, the game calculates the duration taken to unravel the mystery in seconds and displays this information.
+
+6. Guessing Too Low or Too High :
+   - If the player's guess is not on target, the game offers constructive feedback, informing the player whether the secret number is higher or lower than their guess.
+   - If the secret number is higher than the player's guess, the game encourages the player to make a subsequent guess with a higher number.
+   - Conversely, if the secret number is lower, the game suggests aiming lower with the next guess.
+
+7. Exiting the Game :
+   - Once the player masters the challenge and correctly identifies the secret number, they achieve victory, prompting the game to gracefully exit the loop.
+
+8. Closing Scanner :
+   - After the game concludes, the program ensures the efficient use of system resources by properly closing the input scanner.
+
+This Number Guessing Game combines the thrill of exploration with strategic thinking. 
+It encourages players to use their wits and intuition to conquer the challenge while maintaining a record of their achievements in terms of attempts and time.
+
+
