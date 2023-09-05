@@ -1,12 +1,15 @@
 The rules for a number guessing game are relatively simple. Here are the standard rules for a typical number guessing game:
 
-Objective: The objective of the game is for the player to guess a secret number selected by the game host or computer within a specified range.
+Objective: The objective of the game is for the player to guess a secret number selected by the game host
+or computer within a specified range.
 
 Setup:
 The game host or computer selects a random number within a predefined range (e.g., between 1 and 100).
+
 Player's Turn:
 The player takes turns guessing the secret number.
-After each guess, the host or computer provides feedback to the player, typically indicating whether the secret number is higher, lower, or equal to the guessed number.
+After each guess, the host or computer provides feedback to the player,
+typically indicating whether the secret number is higher, lower, or equal to the guessed number.
 
 Feedback:
 If the player's guess is less than the secret number, they receive feedback like "Higher."
