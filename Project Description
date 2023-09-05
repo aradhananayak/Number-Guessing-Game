@@ -3,27 +3,25 @@ The rules for a number guessing game are relatively simple. Here are the standar
 Objective: The objective of the game is for the player to guess a secret number selected by the game host or computer within a specified range.
 
 Setup:
-
 The game host or computer selects a random number within a predefined range (e.g., between 1 and 100).
 Player's Turn:
-
 The player takes turns guessing the secret number.
 After each guess, the host or computer provides feedback to the player, typically indicating whether the secret number is higher, lower, or equal to the guessed number.
-Feedback:
 
+Feedback:
 If the player's guess is less than the secret number, they receive feedback like "Higher."
 If the player's guess is greater than the secret number, they receive feedback like "Lower."
 If the player's guess matches the secret number, they receive feedback like "Correct."
-Guess Limit:
 
+Guess Limit:
 The player has a limited number of attempts to guess the correct number. There's usually a maximum number of allowed guesses, 
 and if the player exceeds this limit without guessing correctly, they lose the game.
-Win or Lose:
 
+Win or Lose:
 If the player guesses the correct number within the allowed number of attempts, they win the game.
 If the player exceeds the maximum number of allowed guesses without finding the correct number, they lose the game.
-Restart Option:
 
+Restart Option:
 After the game ends (either by winning or losing), players often have the option to restart and play another round.
 These are the basic rules for a number guessing game. However, the game can be modified and customized in various ways to make it more challenging or interesting.
 For example, you can add difficulty levels, scoring systems, time limits, or other features to enhance the gameplay. 
